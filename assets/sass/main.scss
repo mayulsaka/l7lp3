@@ -61,6 +61,11 @@ $breakpoints: (
 
 /* 基本設定 */
 
+
+* {
+	outline: 1px solid red;
+}
+
 html {
 	scroll-behavior: smooth;
 }
@@ -72,7 +77,6 @@ body {
 	font-family: "Noto Sans JP", sans-serif;
 	font-size: vw(16);
 	font-weight: 400;
-	// line-height: 1.6;
 	line-height: normal;
 	@include mq() {
 		font-size: vwt(16);
@@ -112,17 +116,23 @@ li {
 	list-style: none;
 }
 
+.sp-only {
+	display: inline-block;
+	@include mq() {
+		display: none;
+	}
+	@include mq(lg) {
+		display: none;
+	}
+}
+
 .pc-only {
 	display: none;
 	@include mq() {
 		display: inline-block;
 	}
-}
-
-.sp-only {
-	display: inline-block;
-	@include mq() {
-		display: none;
+	@include mq(lg) {
+		display: inline-block;
 	}
 }
 
@@ -344,7 +354,7 @@ li {
 		position: absolute;
 		top: vw(97);
 		bottom: 0;
-		left: vw(-3);
+		left: vw(-6);
 		width: vw(209);
 		@include mq() {
 			top: vwt(107);
@@ -645,7 +655,7 @@ li {
 	&__title-main::after {
 		position: absolute;
 		top: vw(5);
-		right: vw(-15);
+		right: vw(-13);
 		display: block;
 		width: vw(20);
 		height: vw(25);
@@ -1871,13 +1881,12 @@ li {
 		align-items: center;
 		flex-direction: row;
 		justify-content: center;
-		max-width: vwt(730);
+		max-width: vwt(760);
 	}
 	@include mq(lg) {
 		max-width: px2Rem(970);
 	}
 	&__voice-card {
-		z-index: 999;
 		display: flex;
 		align-items: center;
 		flex-direction: column;
@@ -1886,12 +1895,12 @@ li {
 		margin: 0 auto;
 		padding: vw(10) vw(7.5) vw(10) vw(7.5);
 		@include mq() {
-			width: vwt(310);
-			padding: vwt(10) vwt(7);
+			width: vwt(340);
+			padding: vwt(10) vwt(7.5);
 		}
 		@include mq(lg) {
-			width: px2Rem(310);
-			padding: px2Rem(10) px2Rem(7) px2Rem(10) px2Rem(7);
+			width: px2Rem(350);
+			padding: px2Rem(10) px2Rem(7.5) px2Rem(10) px2Rem(7.5);
 		}
 	}
 	&__detail-title {
@@ -2021,21 +2030,15 @@ li {
 
 /* スライダー */
 
-$slick-dot-color: #fa7da3 !default;
-$slick-dot-color-active: #fa7da3 !default;
-$slick-dot-size: 35px !default;
-$slick-dot-size: 40px !default;
-$slick-opacity-default: 0.9 !default;
-$slick-opacity-on-hover: 1 !default;
-$slick-opacity-not-active: 0.25 !default;
-
 .slick-dots {
-	bottom: vw(-30);
+	bottom: vw(-35);
+	padding-bottom: vw(5);
 	@include mq() {
-		bottom: vwt(-20);
+		bottom: vwt(-40);
+		padding-bottom: vwt(5);
 	}
 	@include mq(lg) {
-		bottom: px2Rem(-28);
+		bottom: px2Rem(-36);
 	}
 
 	li {
@@ -2046,11 +2049,6 @@ $slick-opacity-not-active: 0.25 !default;
 		@include mq(lg) {
 			width: px2Rem(17);
 		}
-
-		&.slick-active button:before {
-			opacity: $slick-opacity-default;
-			color: $slick-dot-color-active;
-		}
 	}
 }
 
@@ -2060,16 +2058,15 @@ $slick-opacity-not-active: 0.25 !default;
 	color: #ffd2d2;
 	font-size: vw(15.5);
 	@include mq() {
-		font-size: vwt(15);
+		font-size: vwt(16);
 	}
 	@include mq(lg) {
-		font-size: px2Rem(15);
+		font-size: px2Rem(16);
 	}
 }
 .slick-dots li.slick-active button:before {
 	color: #fa7da3;
 }
-
 
 .slick-prev:before, .slick-next:before {
 	display: none;
@@ -2176,7 +2173,7 @@ $slick-opacity-not-active: 0.25 !default;
 	width: 100%;
 	height: vw(64);
 	margin: 0 auto;
-	padding: vw(14) vw(10) vw(10) vw(17);
+	padding: vw(14) vw(10) vw(10) vw(14);
 	background-color: #fa7da3;
 	@include mq() {
 		height: vwt(128);
@@ -2184,7 +2181,7 @@ $slick-opacity-not-active: 0.25 !default;
 	}
 	@include mq(lg) {
 		height: px2Rem(128);
-		padding: px2Rem(27) px2Rem(20) px2Rem(22) px2Rem(50);
+		padding: px2Rem(27) px2Rem(20) px2Rem(22) px2Rem(20);
 	}
 	&__footer-container {
 		display: flex;
@@ -2192,11 +2189,14 @@ $slick-opacity-not-active: 0.25 !default;
 		justify-content: center;
 		width: 100%;
 		margin: auto;
+		padding-left: vwt(6);
 		@include mq() {
 			max-width: vwt(768);
+			padding-left: vwt(32);
 		}
 		@include mq(lg) {
-			max-width: px2Rem(1200);
+			max-width: px2Rem(1030);
+			padding-left: px2Rem(30);
 		}
 	}
 	&__footer-logo {
