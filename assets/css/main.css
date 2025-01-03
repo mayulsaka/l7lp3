@@ -318,21 +318,21 @@ li {
 		font-size: 1.125rem;
 	}
 }
-.header__reservatkon-arrow {
+.header__reservation-arrow {
 	display: inline-block;
 	width: 1.5384615385vw;
 	margin-left: 2.0512820513vw;
 	padding-top: 0.7692307692vw;
 }
 @media screen and (min-width: 768px) {
-	.header__reservatkon-arrow {
+	.header__reservation-arrow {
 		width: 1.067961165vw;
 		margin-left: 0.5825242718vw;
 		padding-top: 0.2912621359vw;
 	}
 }
 @media screen and (min-width: 1030px) {
-	.header__reservatkon-arrow {
+	.header__reservation-arrow {
 		width: 0.6875rem;
 		margin-left: 0.375rem;
 		padding-top: 0.1875rem;
@@ -1060,18 +1060,18 @@ li {
 		font-size: 2.125rem;
 	}
 }
-.cta--first__reservatkon-main-arrow {
+.cta--first__reservation-main-arrow {
 	width: 3.3333333333vw;
 	margin-left: 6.9230769231vw;
 }
 @media screen and (min-width: 768px) {
-	.cta--first__reservatkon-main-arrow {
+	.cta--first__reservation-main-arrow {
 		width: 1.9417475728vw;
 		margin-left: 4.0776699029vw;
 	}
 }
 @media screen and (min-width: 1030px) {
-	.cta--first__reservatkon-main-arrow {
+	.cta--first__reservation-main-arrow {
 		width: 1.25rem;
 		margin-left: 2.625rem;
 	}
@@ -1941,18 +1941,18 @@ li {
 		font-size: 2.125rem;
 	}
 }
-.cta--second__reservatkon-main-arrow {
+.cta--second__reservation-main-arrow {
 	width: 3.3333333333vw;
 	margin-left: 6.9230769231vw;
 }
 @media screen and (min-width: 768px) {
-	.cta--second__reservatkon-main-arrow {
+	.cta--second__reservation-main-arrow {
 		width: 1.9417475728vw;
 		margin-left: 4.0776699029vw;
 	}
 }
 @media screen and (min-width: 1030px) {
-	.cta--second__reservatkon-main-arrow {
+	.cta--second__reservation-main-arrow {
 		width: 1.25rem;
 		margin-left: 2.625rem;
 	}
@@ -2804,18 +2804,18 @@ li {
 		font-size: 2.125rem;
 	}
 }
-.cta--last__reservatkon-main-arrow {
+.cta--last__reservation-main-arrow {
 	width: 3.3333333333vw;
 	margin-left: 6.9230769231vw;
 }
 @media screen and (min-width: 768px) {
-	.cta--last__reservatkon-main-arrow {
+	.cta--last__reservation-main-arrow {
 		width: 1.9417475728vw;
 		margin-left: 4.0776699029vw;
 	}
 }
 @media screen and (min-width: 1030px) {
-	.cta--last__reservatkon-main-arrow {
+	.cta--last__reservation-main-arrow {
 		width: 1.25rem;
 		margin-left: 2.625rem;
 	}

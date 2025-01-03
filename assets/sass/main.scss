@@ -289,7 +289,7 @@ li {
 			font-size: px2Rem(18);
 		}
 	}
-	&__reservatkon-arrow {
+	&__reservation-arrow {
 		display: inline-block;
 		width: vw(6);
 		margin-left: vw(8);
@@ -849,7 +849,7 @@ li {
 			font-size: px2Rem(34);
 		}
 	}
-	&__reservatkon-main-arrow {
+	&__reservation-main-arrow {
 		width: vw(13);
 		margin-left: vw(27);
 		@include mq() {
@@ -1510,7 +1510,7 @@ li {
 			font-size: px2Rem(34);
 		}
 	}
-	&__reservatkon-main-arrow {
+	&__reservation-main-arrow {
 		width: vw(13);
 		margin-left: vw(27);
 		@include mq() {
@@ -2143,7 +2143,7 @@ li {
 			font-size: px2Rem(34);
 		}
 	}
-	&__reservatkon-main-arrow {
+	&__reservation-main-arrow {
 		width: vw(13);
 		margin-left: vw(27);
 		@include mq() {
