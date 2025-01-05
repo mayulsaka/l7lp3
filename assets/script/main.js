@@ -1,5 +1,5 @@
 
-// ---------- ここから スライダー ---------- 
+// ---------- スライダー ---------- 
 
 $('.visual').slick({
   dots: true,
@@ -7,6 +7,7 @@ $('.visual').slick({
   slidesToScroll:3,
   autoplay: true, 
   autoplaySpeed: 5000,
+  arrows: false,
   responsive: [
     {
       breakpoint: 767.9, 
@@ -19,3 +20,26 @@ $('.visual').slick({
     }, 
   ],
  });
+
+
+// $('.visual').slick({
+//     dots: false,
+//     slidesToShow: 3,
+//     arrows: false,
+//     responsive: [
+//       {
+//         breakpoint: 767.9, 
+//         settings: {
+//           dots: true,
+//           slidesToShow: 1,
+//           slidesToScroll:1,
+//           autoplay: false, 
+//           autoplaySpeed: 5000,
+//           centerMode:true,  
+//           centerPadding:"8%", 
+//         },
+//       }, 
+//     ],
+//    });
+
+
