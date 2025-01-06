@@ -1,11 +1,10 @@
-
 // ---------- スライダー ---------- 
 
 $('.visual').slick({
   dots: true,
   slidesToShow: 3,
   slidesToScroll:3,
-  autoplay: true, 
+  autoplay: false, 
   autoplaySpeed: 5000,
   arrows: false,
   responsive: [
@@ -20,26 +19,3 @@ $('.visual').slick({
     }, 
   ],
  });
-
-
-// $('.visual').slick({
-//     dots: false,
-//     slidesToShow: 3,
-//     arrows: false,
-//     responsive: [
-//       {
-//         breakpoint: 767.9, 
-//         settings: {
-//           dots: true,
-//           slidesToShow: 1,
-//           slidesToScroll:1,
-//           autoplay: false, 
-//           autoplaySpeed: 5000,
-//           centerMode:true,  
-//           centerPadding:"8%", 
-//         },
-//       }, 
-//     ],
-//    });
-
-
