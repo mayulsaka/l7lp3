@@ -2635,7 +2635,7 @@ li {
 
 @media screen and (min-width: 768px) {
 	.courses__detail-content {
-		padding: 0.8252427184vw 1.7475728155vw 1.7475728155vw 1.7475728155vw;
+		padding: 0.8252427184vw 1.5533980583vw 1.7475728155vw 1.5533980583vw;
 		border-bottom-right-radius: 0.9708737864vw;
 		border-bottom-left-radius: 0.9708737864vw;
 	}
@@ -2643,7 +2643,7 @@ li {
 
 @media screen and (min-width: 1030px) {
 	.courses__detail-content {
-		padding: 0.53125rem 1.125rem 1.125rem 1.125rem;
+		padding: 0.53125rem 1rem 1.125rem 1rem;
 		border-bottom-right-radius: 0.625rem;
 		border-bottom-left-radius: 0.625rem;
 	}
@@ -2663,14 +2663,14 @@ li {
 @media screen and (min-width: 768px) {
 	.courses__detail-text {
 		padding-bottom: 1.6019417476vw;
-		font-size: 1.7669902913vw;
+		font-size: 1.7572815534vw;
 	}
 }
 
 @media screen and (min-width: 1030px) {
 	.courses__detail-text {
 		padding-bottom: 1.03125rem;
-		font-size: 1.1375rem;
+		font-size: 1.13125rem;
 	}
 }
 

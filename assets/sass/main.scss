@@ -1835,12 +1835,12 @@ li {
 		border-bottom-left-radius: vw(10);
 		background-color: #fff;
 		@include mq() {
-			padding: vwt(8.5) vwt(18) vwt(18) vwt(18);
+			padding: vwt(8.5) vwt(16) vwt(18) vwt(16);
 			border-bottom-right-radius: vwt(10);
 			border-bottom-left-radius: vwt(10);
 		}
 		@include mq(lg) {
-			padding: px2Rem(8.5) px2Rem(18) px2Rem(18) px2Rem(18);
+			padding: px2Rem(8.5) px2Rem(16) px2Rem(18) px2Rem(16);
 			border-bottom-right-radius: px2Rem(10);
 			border-bottom-left-radius: px2Rem(10);
 		}
@@ -1854,11 +1854,11 @@ li {
 		line-height: 1.5;
 		@include mq() {
 			padding-bottom: vwt(16.5);
-			font-size: vwt(18.2);
+			font-size: vwt(18.1);
 		}
 		@include mq(lg) {
 			padding-bottom: px2Rem(16.5);
-			font-size: px2Rem(18.2);
+			font-size: px2Rem(18.1);
 		}
 
 		line-break: anywhere;
